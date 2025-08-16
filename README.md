@@ -1,52 +1,34 @@
-This repository contains all the assignments completed as part of the Operating Systems Laboratory during my 5th semester. The assignments are implemented primarily using Shell Scripting and C programs, focusing on the fundamental concepts of operating systems.
+# Operating Systems Lab (PCC-CS592)
 
-📂 Contents
+This repository contains all the assignments and lab programs completed as part of the **Operating Systems Lab (PCC-CS592)** in the 5th semester.  
+It serves as a structured collection of shell scripts and other programs written to understand and implement various OS concepts.
 
-Shell Scripts (.sh) – Programs for process management, file handling, scheduling, memory management, and basic system utilities.
+---
 
-C Programs (.c) – Low-level OS concepts such as process creation, inter-process communication, synchronization, and system calls.
+## 📂 Repository Structure
 
-Documentation – Each program is well-commented and includes explanations of logic, usage, and expected output.
+- Each file corresponds to a specific lab assignment or program.
+- All scripts are written in **Bash** unless otherwise specified.
+- Programs cover various topics such as:
+  - File handling  
+  - Process management  
+  - User management  
+  - Shell scripting fundamentals  
 
-⚡ Features
+---
 
-Covers core OS concepts with practical implementations.
+## 🛠️ Requirements
 
-Focuses on hands-on learning of UNIX/Linux shell scripting.
+To run the scripts in this repository, you need:
 
-Error handling included in scripts for robust execution.
+- **Operating System:** Any Unix/Linux-based OS (e.g., Ubuntu, Fedora, Debian)  
+- **Shell:** `bash` (Bourne Again Shell)  
+- **Basic utilities:** `grep`, `ps`, `awk`, etc.  
 
-Compatible with most Linux-based environments (tested on Ubuntu).
+---
 
-🚀 How to Use
+## ▶️ How to Run
 
-Clone the repository:
-
-git clone https://github.com/<your-username>/os-lab-assignments.git
-cd os-lab-assignments
-
-
-For shell scripts:
-
-chmod +x filename.sh
-./filename.sh
-
-
-For C programs:
-
-gcc program.c -o program
-./program
-
-📝 Notes
-
-Some programs may require bc or other utilities installed in your Linux system.
-
-The assignments are meant for academic purposes, but they can also serve as a reference repository for anyone learning shell scripting or OS fundamentals.
-
-📌 Semester Info
-
-Course: Operating Systems Lab
-
-Semester: 5th Semester, B.Tech (CSE)
-
-Environment: Ubuntu/Linux
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Nilanjan940/Operating-Systems-Lab-PCC-CS592-.git
