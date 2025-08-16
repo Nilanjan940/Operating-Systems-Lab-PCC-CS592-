@@ -32,3 +32,13 @@ To run the scripts in this repository, you need:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Nilanjan940/Operating-Systems-Lab-PCC-CS592-.git
+2. Navigate into the repo:
+   ```bash
+   cd Operating-Systems-Lab-PCC-CS592-
+3. Make the script executable:
+   ```bash
+   chmod +x filename.sh
+4. Run the script:
+   ```bash
+   filename.sh[arguments]
+  
