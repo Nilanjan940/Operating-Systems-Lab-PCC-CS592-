@@ -1,54 +1,52 @@
-This repository contains all the assignments and programs completed as part of the Operating Systems Laboratory in my 5th semester. The programs are written primarily in Shell Script (sh) and cover a wide range of concepts related to process management, file handling, and operating system fundamentals.
+This repository contains all the assignments completed as part of the Operating Systems Laboratory during my 5th semester. The assignments are implemented primarily using Shell Scripting and C programs, focusing on the fundamental concepts of operating systems.
 
-📂 Repository Structure
+📂 Contents
 
-Each assignment is organized into a separate file or folder.
+Shell Scripts (.sh) – Programs for process management, file handling, scheduling, memory management, and basic system utilities.
 
-Programs include proper input validation, error handling, and comments for clarity.
+C Programs (.c) – Low-level OS concepts such as process creation, inter-process communication, synchronization, and system calls.
 
-Common topics include:
+Documentation – Each program is well-commented and includes explanations of logic, usage, and expected output.
 
-Process creation & management
+⚡ Features
 
-File and directory operations
+Covers core OS concepts with practical implementations.
 
-Shell scripting basics
+Focuses on hands-on learning of UNIX/Linux shell scripting.
 
-Scheduling and memory concepts
+Error handling included in scripts for robust execution.
 
-Simulation of OS functionalities
+Compatible with most Linux-based environments (tested on Ubuntu).
 
-⚙️ Requirements
-
-Linux/Unix environment
-
-bash or sh shell
-
-bc (for mathematical operations)
-
-Basic utilities like ps, grep, awk, etc.
-
-▶️ How to Run
+🚀 How to Use
 
 Clone the repository:
 
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/<your-username>/os-lab-assignments.git
+cd os-lab-assignments
 
 
-Make the script executable:
+For shell scripts:
 
 chmod +x filename.sh
-
-
-Run the script:
-
 ./filename.sh
 
-✍️ Notes
 
-All scripts are tested in a Linux environment.
+For C programs:
 
-Programs are for academic/learning purposes.
+gcc program.c -o program
+./program
 
-Suggestions and improvements are always welcome!
+📝 Notes
+
+Some programs may require bc or other utilities installed in your Linux system.
+
+The assignments are meant for academic purposes, but they can also serve as a reference repository for anyone learning shell scripting or OS fundamentals.
+
+📌 Semester Info
+
+Course: Operating Systems Lab
+
+Semester: 5th Semester, B.Tech (CSE)
+
+Environment: Ubuntu/Linux
