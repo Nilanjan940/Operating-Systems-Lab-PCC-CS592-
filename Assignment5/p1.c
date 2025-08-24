@@ -1,3 +1,6 @@
+#Write a C program to create a child process and print the PID & PPID from both the parent and child processes.
+ Also verify the output of your program with the 'ps' command.
+
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
